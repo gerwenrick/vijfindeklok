@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.clock-single {
+  margin: 0.5em;
+  text-align: center;
+
+  ul {
+    margin: 0;
+    padding: 0.5em 1em;
+    list-style: none;
+  }
+
+  .timeTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+}
+
+#label,
+#offset,
+#tzCode {
+  display: none;
+} 
+
+.ana-clock {
+  $black: #1b1e23;
+  $size: 600px;
+  $white: #f4eed7;
+  $feature : #4b9aaa
+}
+
+svg {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+
+  .hours, .minutes, .seconds{
+    transform-origin: 69.6% 83.4%;
+  }
+}

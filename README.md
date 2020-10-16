@@ -1,4 +1,4 @@
-# vijfindeklok
+# tijdzones
 
 ## Project setup
 ```
